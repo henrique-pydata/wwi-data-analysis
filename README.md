@@ -1,32 +1,20 @@
-# WWI Orders Performance Analysis
+## WWI Orders Performance Analysis
 
-Base de dados fictícia da WideWorldImporters. O projeto tem como foco analisar a performance de pedidos, integrando diferentes ferramentas como Power BI, Python e SQL para treinar o fluxo completo de análise de dados.
-
-## Estrutura do repositório
-
-- `/notebooks/` → Jupyter Notebooks
-- `/sql/` → Scripts SQL
-- `/bi/` → Arquivos Power BI (.pbix)
-- `/docs/` → Insights, imagens e documentação
-
-## Como usar
-
-1. Abrir os notebooks em `/notebooks/`
-2. Executar os scripts SQL em `/sql/`
-3. Abrir os arquivos Power BI em `/bi/`
-4. Para facilitar, deixei um CSV com a base utilizada na análise dentro da pasta `/docs/exports/` (`orders_data.csv`) e também um notebook na raiz do projeto que utiliza esse CSV, permitindo que qualquer pessoa rode a análise sem precisar se conectar ao banco de dados.
-
+Projeto de análise de performance de pedidos utilizando a base fictícia da WideWorldImporters (WWI).
 
 ### Pré-visualização do Dashboard
-
 ![Dashboard Preview](bi/dashboard_preview.gif)
 
+### O que foi feito
+- Extração de dados via SQL Server
+- Tratamento e análise dos dados com Python
+- Identificação de padrões sazonais e tendências
+- Criação de dashboard interativo no Power BI
+- 
+### Ferramentas
+SQL Server, Python (pandas, numpy, matplotlib, seaborn, pyodbc), Power BI
 
-## Observações
-
-- Todos os dados utilizados são fictícios.
-- O notebook na raiz do projeto (`notebook_analysis_no_sql`) pode ser executado sem conexão com SQL Server, usando o CSV em `/docs/exports/orders_data.csv`.
-- O fluxo completo de análise envolve SQL, Python e Power BI.
-
+### Observações
+Projeto desenvolvido para estudo e portfólio, com foco no fluxo completo de análise de dados, da extração à visualização.
 
 
